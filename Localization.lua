@@ -357,8 +357,8 @@ BCS["L"] = {
 
 BCS["L_esES"] = {
 
-    ["%+(%d+)%% Critical Strike"] = "%+(%d+)%% Golpe Crítico",
-    ["([%d.]+)%% chance to crit"] = "([%d.]+)%% probabilidad de Golpe Crítico",
+    ["%+(%d+)%% Critical Strike"] = "%+(%d+)%% Golpe crítico",
+    ["([%d.]+)%% chance to crit"] = "([%d.]+)%% probabilidad de golpe crítico",
 
     ["^Set: Improves your chance to hit by (%d)%%."] = "^Conjunto: Mejora tu probabilidad de acertar en un (%d)%%.",
     ["^Set: Improves your chance to get a critical strike with spells by (%d)%%."] = "^Conjunto: Mejora tu probabilidad de golpe crítico con hechizos en un (%d)%%.",
@@ -375,7 +375,7 @@ BCS["L_esES"] = {
     ["Equip: Improves your chance to hit by (%d)%%."] = ITEM_SPELL_TRIGGER_ONEQUIP .. " Mejora tu probabilidad de acertar en un (%d)%%.",
     ["Equip: Improves your chance to get a critical strike with spells by (%d)%%."] = ITEM_SPELL_TRIGGER_ONEQUIP .. " Mejora tu probabilidad de golpe crítico con hechizos en un (%d)%%.",
     ["Equip: Improves your chance to hit with spells by (%d)%%."] = ITEM_SPELL_TRIGGER_ONEQUIP .. " Mejora tu probabilidad de acertar con hechizos en un (%d)%%.",
-    ["Equip: Improves your chance to get a critical strike by (%d)%%."] = ITEM_SPELL_TRIGGER_ONEQUIP .. " Mejora tu probabilidad de realizar un Golpe Crítico en un (%d)%%.",
+    ["Equip: Improves your chance to get a critical strike by (%d)%%."] = ITEM_SPELL_TRIGGER_ONEQUIP .. " Mejora tu probabilidad de realizar un golpe crítico en un (%d)%%.",
     ["Increases your chance to hit with melee weapons by (%d)%%."] = "Aumenta tu probabilidad de acertar con armas cuerpo a cuerpo en un (%d)%%.",
     ["Increases your critical strike chance with ranged weapons by (%d)%%."] = "Aumenta tu probabilidad de golpe crítico con armas a distancia en un (%d)%%.",
     ["Increases hit chance by (%d)%% and increases the chance movement impairing effects will be resisted by an additional %d+%%."] = "Aumenta tu probabilidad de acertar en un (%d)%% y aumenta la probabilidad de resistir efectos que impidan el movimiento en un adicional %d+%%.",
@@ -396,7 +396,7 @@ BCS["L_esES"] = {
     ["Spell Damage %+(%d+)"] = "Daño de hechizo %+(%d+)",
     ["Spell damage is increased by up to (%d+)"] = "El daño de hechizo se aumenta hasta en un (%d+)",
     ["Spell damage increased by up to (%d+)"] = "El daño de hechizo aumentado hasta en un (%d+)",
-    ["Spell Damage increased by (%d+)"] = "Daño de hechizo aumentado en un (%d+)",
+    ["Spell Damage increased by (%d+)"] = "Daño de Hechizo aumentado en un (%d+)",
 
     ["Arcane Damage %+(%d+)"] = "Daño Arcano %+(%d+)",
     ["Fire Damage %+(%d+)"] = "Daño de Fuego %+(%d+)",
@@ -437,14 +437,14 @@ BCS["L_esES"] = {
 
     -- Encantamientos de ZG
     ["/Hit %+(%d+)"] = "/Golpe %+(%d+)",
-    ["/Spell Hit %+(%d+)"] = "/Golpe con hechizo %+(%d+)",
+    ["/Spell Hit %+(%d+)"] = "/Golpe con Hechizo %+(%d+)",
     ["^Mana Regen %+(%d+)"] = "^Regeneración de maná %+(%d+)",
     ["^Healing %+%d+ and (%d+) mana per 5 sec."] = "^Sanación %+%d+ y (%d+) de maná cada 5 segundos.",
     ["^%+(%d+) Healing Spells"] = "^%+(%d+) Hechizos de sanación",
     ["^%+(%d+) Spell Damage and Healing"] = "^%+(%d+) Daño de hechizo y sanación",
 
     -- Encantamientos de hombro de Sapphiron
-    ["%+(%d+)%% Critical Strike"] = "%+(%d+)%% Golpe Crítico",
+    ["%+(%d+)%% Critical Strike"] = "%+(%d+)%% Golpe crítico",
 
     ["Equip: Increases damage and healing done by magical spells and effects by up to (%d+)."] = ITEM_SPELL_TRIGGER_ONEQUIP .. " Aumenta el daño y la sanación realizados por hechizos y efectos mágicos en hasta (%d+).",
     ["Equip: Increases healing done by spells and effects by up to (%d+)."] = ITEM_SPELL_TRIGGER_ONEQUIP .. " Aumenta la sanación realizada por hechizos y efectos en hasta (%d+).",
@@ -484,10 +484,10 @@ BCS["L_esES"] = {
     -- Druida
     ["Increases the damage and critical strike chance of your Moonfire spell by (%d+)%%."] = "Aumenta el daño y la probabilidad de golpe crítico de tu hechizo Fuego lunar en un (%d+)%%.",
     ["Increases the critical effect chance of your Regrowth spell by (%d+)%%."] = "Aumenta la probabilidad de efecto crítico de tu hechizo Recrecimiento en un (%d+)%%.",
-    ["Moonkin Aura"] = "Aura de lechúcico lunar",
-    ["Moonkin Form"] = "Forma de lechúcico lunar",
-    ["Tree of Life Form"] = "Forma de Árbol de vida",
-    ["Tree of Life Aura"] = "Aura de Árbol de vida",
+    ["Moonkin Aura"] = "Aura de Lechúcico Lunar",
+    ["Moonkin Form"] = "Forma de Lechúcico Lunar",
+    ["Tree of Life Form"] = "Forma de Árbol de Vida",
+    ["Tree of Life Aura"] = "Aura de Árbol de Vida",
     ["Mana regeneration increased by (%d+)%%.  (%d+)%% Mana regeneration may continue while casting."] = "Regeneración de maná aumentada en un (%d+)%%. (%d+)%% de regeneración de maná puede continuar mientras lanzas hechizos.",
     ["Also increases chance to hit with melee attacks and spells by (%d+)%%."] = "También aumenta la probabilidad de acertar con ataques cuerpo a cuerpo y hechizos en un (%d+)%%.",
 
@@ -502,7 +502,7 @@ BCS["L_esES"] = {
     -- Chamán
     ["Increases the critical strike chance of your Lightning Bolt and Chain Lightning spells by an additional (%d+)%%."] = "Aumenta la probabilidad de golpe crítico de tus hechizos Rayo y Cadena de relámpagos en un (%d+)%% adicionales.",
     ["Increases the critical effect chance of your healing and lightning spells by (%d+)%%."] = "Aumenta la probabilidad de efecto crítico de tus hechizos de sanación y relámpagos en un (%d+)%%.",
-    ["Elemental Mastery"] = "Maestría elemental",
+    ["Elemental Mastery"] = "Maestría Elemental",
     ["Increases your chance to hit with spells and melee attacks by (%d+)%%"] = "Aumenta tu probabilidad de acertar con hechizos y ataques cuerpo a cuerpo en un (%d+)%%.",
     ["Increases your chance to hit with spells by (%d+)%%"] = "Aumenta tu probabilidad de acertar con hechizos en un (%d+)%%.",
 
@@ -528,7 +528,7 @@ BCS["L_esES"] = {
     ["Increases your spell damage and the critical strike chance of your offensive spells by (%d+)%%"] = "Aumenta tu daño con hechizos y la probabilidad de golpe crítico de tus hechizos ofensivos en un (%d+)%%.",
     ["^Set: Improves your chance to get a critical strike with Holy spells by (%d)%%."] = "^Conjunto: Mejora tu probabilidad de golpe crítico con hechizos Sagrados en un (%d)%%.",
     ["^Set: Increases your chance of a critical hit with Prayer of Healing by (%d+)%%."] = "^Conjunto: Aumenta tu probabilidad de golpe crítico con Rezo de Sanación en un (%d+)%%.",
-    ["Inner Focus"] = "Enfoque interno",
+    ["Inner Focus"] = "Enfoque Interno",
     ["Increases the effects of your Inner Fire spell by (%d+)%%."] = "Aumenta los efectos de tu hechizo Fuego interno en un (%d+)%%.",
     ["Improved Shadowform"] = "Forma de las Sombras mejorada",
     ["Shadowform"] = "Forma de las Sombras",
@@ -688,7 +688,7 @@ BCS["L_esES"] = {
 
     ["Healing %+(%d+)"] = "Sanación %+(%d+)",
     ["Healing done is increased by up to (%d+)"] = "La sanación realizada aumenta hasta en un (%d+).",
-    ["Healing Bonus increased by (%d+)"] = "Bonificación de sanación aumentada en un (%d+).",
+    ["Healing Bonus increased by (%d+)"] = "Bonificación de Sanación aumentada en un (%d+).",
 
     ["Increases damage and healing done by magical spells and effects by up to (%d+)"] = "Aumenta el daño y la sanación realizados por hechizos y efectos mágicos en hasta (%d+).",
     ["Magical damage dealt by spells and abilities is increased by up to (%d+)"] = "El daño mágico infligido por hechizos y habilidades aumenta en hasta (%d+).",
@@ -708,7 +708,7 @@ BCS["L_esES"] = {
     ["^Stoneskin$"] = "^Piel pétrea$",
 
     ["to all party members"] = "para todos los miembros del grupo",
-    ["Healing Bonus increased by (%d+)"] = "Bonificación de sanación aumentada en un (%d+).",
+    ["Healing Bonus increased by (%d+)"] = "Bonificación de Sanación aumentada en un (%d+).",
 }
 
 local locale = GetLocale()
